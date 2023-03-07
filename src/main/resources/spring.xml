@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 <!--    Annotation base configuration -->
-    <context:component-scan base-package="com.tunde"></context:component-scan>
+<!--    <context:component-scan base-package="com.tunde"></context:component-scan>-->
 <!--    <bean id="doctor" class="com.tunde.Doctor">-->
 <!--        <property name="qualification" value="MBBS"></property>-->
 <!--        Constructor base argument-->
