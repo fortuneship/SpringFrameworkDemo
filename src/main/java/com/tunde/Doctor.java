@@ -3,6 +3,10 @@ package com.tunde;
 
 public class Doctor implements Staff {
 
+    public Doctor(String qualification) {
+        this.qualification = qualification;
+    }
+
     private String qualification;
 
     public void assist(){

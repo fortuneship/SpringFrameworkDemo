@@ -6,7 +6,9 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="doctor" class="com.tunde.Doctor">
-        <property name="qualification" value="MBBS"></property>
+<!--        <property name="qualification" value="MBBS"></property>-->
+<!--        Constructor base argument-->
+        <constructor-arg value="MBBS"></constructor-arg>
     </bean>
     <bean id="nurse" class="com.tunde.Nurse"></bean>
 </beans>
